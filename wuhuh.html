@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Senin İçin benim biriciğim 🌸</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+body {
+min-height: 100vh;
+background: linear-gradient(135deg, #ffe4e6, #fff7ed);
+overflow-x: hidden;
+color: #7c2d12;
+}
+
+
+/* floating flowers */
+.flower {
+position: fixed;
+font-size: 24px;
+animation: float 12s linear infinite;
+opacity: 0.8;
+}
+.flower:nth-child(1) { left: 10%; animation-duration: 14s; }
+.flower:nth-child(2) { left: 30%; animation-duration: 10s; }
+.flower:nth-child(3) { left: 55%; animation-duration: 16s; }
+.flower:nth-child(4) { left: 75%; animation-duration: 12s; }
+
+
+@keyframes float {
+0% { top: 110%; transform: rotate(0deg); }
+100% { top: -10%; transform: rotate(360deg); }
+}
+
+
+header {
+text-align: center;
+padding: 80px 20px 40px;
+}
+header h1 {
+font-size: 3rem;
+margin-bottom: 10px;
+}
+header p {
+font-size: 1.1rem;
+color: #9a3412;
+}
+
+
+.card {
+max-width: 700px;
+margin: 40px auto;
+background: rgba(255,255,255,0.7);
+backdrop-filter: blur(6px);
+border-radius: 24px;
+padding: 40px 30px;
+text-align: center;
+box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+.card h2 {
+font-size: 2rem;
+margin-bottom: 20px;
+}
+.card p {
+font-size: 1.05rem;
+line-height: 1.6;
+color: #7c2d12;
+}
+
+
+.hearts {
+margin-top: 25px;
+font-size: 28px;
+}
+
+
+footer {
+text-align: center;
+padding: 30px 20px;
+font-size: 0.9rem;
+color: #9a3412;
+}
+</style>
+</head>
+<body>
+
+
+<!-- floating flowers -->
+<div class="flower">🌸</div>
+<div class="flower">🌼</div>
+<div class="flower">🌺</div>
+<div class="flower">🌷</div>
+
+
+<header>
+<h1>Benim aşkitoma 🌸</h1>
+<p>Bu küçücük site sana gülümsesin diye 😋</p>
+</header>
+
+
+<div class="card">
+<h2>Sen çok özelsin hemde çoook</h2>
+<p>
+Kolundan yarın bi tur ısırık alacağım güzelim protein ihtiyacını karşılamak lazım 
+ya da o tontiş yanaklarından olabilir. 😜
+</p>
+<div class="hearts">💖 💕 💗</div>
+</div>
+
+
+<footer>
+Balsın ball 🍯
+</footer>
+
+
+</body>
+</html>
